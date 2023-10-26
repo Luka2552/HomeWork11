@@ -1,0 +1,289 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@600&family=Open+Sans:wght@600&display=swap");
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+}
+.container {
+  width: 1183px;
+  height: 700px;
+  display: flex;
+}
+.left-image {
+  width: 602px;
+  height: 700px;
+  background: url("Assets/NewYork.jpg") no-repeat center;
+}
+.right-container {
+  width: 581px;
+  height: 700px;
+  margin-left: -20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background: white;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  border-radius: 22px;
+  text-align: left;
+}
+.logo {
+  width: 270px;
+  height: 202.5px;
+  padding-left: 10px;
+  margin-left: 60px;
+  padding-top: 90px;
+  background: url("Assets/EducationFirst.png") no-repeat center;
+}
+
+.section {
+  text-align: left;
+  font-family: "Open Sans", sans-serif;
+}
+.username {
+  color: #003d61;
+  font-size: 20px;
+  font-weight: 600;
+  line-height: 26.84px;
+  letter-spacing: 1.2px;
+  word-wrap: break-word;
+}
+.fullname-label {
+  color: #c4c4c4;
+  font-size: 12px;
+  font-weight: 600;
+  line-height: 16.1px;
+  letter-spacing: 0.72px;
+  word-wrap: break-word;
+}
+.password-label {
+  color: #94b7cd;
+  font-size: 20px;
+  font-weight: 600;
+  line-height: 26.84px;
+  letter-spacing: 1.2px;
+  word-wrap: break-word;
+}
+.password {
+  color: #94b7cd;
+  font-size: 12px;
+  font-weight: 600;
+  line-height: 16.1px;
+  letter-spacing: 0.72px;
+  word-wrap: break-word;
+}
+.email-label {
+  color: #003d61;
+  font-size: 20px;
+  font-weight: 600;
+  line-height: 26.84px;
+  letter-spacing: 1.2px;
+  word-wrap: break-word;
+}
+.email {
+  color: #c4c4c4;
+  font-size: 12px;
+  font-weight: 600;
+  line-height: 16.1px;
+  letter-spacing: 0.72px;
+  word-wrap: break-word;
+}
+
+.terms {
+  text-align: center;
+  font-family: "Inter", sans-serif;
+}
+.terms-span {
+  color: #003d61;
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 20px;
+  word-wrap: break-word;
+}
+.terms-link {
+  color: #ed2980;
+  text-decoration: underline;
+}
+
+.already-have-account {
+  text-align: center;
+  font-family: "Inter", sans-serif;
+  padding-top: 20px;
+}
+.already-have-account-span {
+  color: #003d61;
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 20px;
+  word-wrap: break-word;
+}
+.login-link {
+  color: #ed2980;
+  text-decoration: underline;
+}
+.icons {
+  display: flex;
+  justify-content: center;
+}
+.ellipse {
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 10px;
+  background: #fbfbfb;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25) inset;
+  margin-right: 50px;
+}
+.icon {
+  width: 40px;
+  height: 40px;
+  fill: #ffffff;
+}
+
+.switch {
+  position: relative;
+  display: inline-block;
+  width: 42px;
+  height: 24px;
+}
+
+.switch input {
+  opacity: 0;
+  width: 0;
+  height: 0;
+}
+
+.slider {
+  position: absolute;
+  cursor: pointer;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: rgba(35, 61, 78, 0.83);
+  border-radius: 34px;
+}
+
+.slider:before {
+  position: absolute;
+  content: "";
+  height: 18px;
+  width: 18px;
+  left: 4px;
+  bottom: 3px;
+  background-color: white;
+  border-radius: 50%;
+}
+
+.container2 {
+  display: none;
+}
+
+@media (max-width: 1024px) {
+  .container2 {
+    display: block;
+    text-align: center;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 22px;
+  }
+
+  .icons2 {
+    margin-right: -40px;
+  }
+
+  .login-text {
+    text-align: left;
+  }
+
+  .container {
+    display: none;
+  }
+
+  .top-image {
+    width: 392px;
+    height: 375px;
+  }
+
+  .white-container {
+    background-color: white;
+    padding: 20px;
+    border-radius: 5px;
+  }
+
+  .logo2 {
+    width: 204px;
+    height: 154px;
+    display: block;
+    margin: 0 auto;
+  }
+
+  .label {
+    color: #b8b8b8;
+    font-size: 14px;
+    font-family: "Open Sans", sans-serif;
+    font-weight: 500;
+    line-height: 38.9px;
+    letter-spacing: 0.17px;
+  }
+
+  .email {
+    color: #003d61;
+    font-size: 16px;
+    font-family: "Open Sans", sans-serif;
+    font-weight: 500;
+    line-height: 18px;
+  }
+
+  .password-circles {
+    width: 100px;
+    height: 10px;
+  }
+
+  .forgot-password {
+    color: #ed2980;
+    font-size: 14px;
+    font-family: "Open Sans", sans-serif;
+    font-weight: 400;
+    text-decoration: underline;
+    line-height: 38.9px;
+    letter-spacing: 0.17px;
+  }
+
+  .login-button {
+    padding-left: 130px;
+    padding-right: 130px;
+    padding-top: 12px;
+    padding-bottom: 12px;
+    background: #003d61;
+    border-radius: 6px;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    display: inline-flex;
+  }
+
+  .login {
+    text-align: center;
+    color: white;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 18px;
+  }
+
+  .signup-text {
+    color: #828282;
+    font-size: 14px;
+    font-family: "Open Sans", sans-serif;
+    font-weight: 400;
+    line-height: 18px;
+  }
+
+  .signup-link {
+    color: #ed2980;
+    text-decoration: underline;
+  }
+}
